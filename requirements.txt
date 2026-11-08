@@ -1,1 +1,1 @@
-requests
+anthropic>=0.40
