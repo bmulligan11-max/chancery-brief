@@ -17,7 +17,7 @@ import sys
 ROOT = pathlib.Path(__file__).parent
 MODEL = (os.environ.get("CLAUDE_MODEL") or "claude-haiku-5-5")
 MAX_SEARCHES = int(os.environ.get("MAX_SEARCHES") or "8")   # each search costs $0.01
-MAX_OUTPUT_TOKENS = 4000
+MAX_OUTPUT_TOKENS = 8000   # only what is used is billed; headroom stops the JSON being cut off
 
 # USD per million tokens (input, output). Haiku 5.5 rates apply to prompts up to 100K tokens;
 # above that the whole request is billed at 5x, so keep MAX_SEARCHES modest.
@@ -41,12 +41,20 @@ SYSTEM = (
 
 PROMPT = """Today is TODAY. Build the Beijing brief for today.
 
-Use at most MAXS web searches, chosen to cover: PRC leadership and MFA briefings; US-China trade, EU-China trade,foreign policy decisions, domestic political decisions,
-export controls and sanctions (BIS, USTR, Treasury, MOFCOM); technology and AI policy; Chinese
-commercial space; the economy; Taiwan and regional security; APEC and other diplomacy. Prefer
-official sources and wire services, and items from the last 72 hours.
+Use at most MAXS web searches, chosen to cover: PRC leadership and MFA briefings; foreign policy
+(China's positions and diplomacy worldwide, including the Global South, Russia, the Middle East and
+the Asia-Pacific); domestic policy (State Council, NPC Standing Committee, Party meetings, regulation,
+the Five-Year Plan, property, employment and social policy); EU-China relations (trade, tariffs,
+Brussels and member-state visits, summits, investment and export-control disputes); white papers and
+other major policy documents published by the State Council Information Office or ministries (say
+when one was published, its title and its main points); US-China trade, export controls and
+sanctions (BIS, USTR, Treasury, MOFCOM); technology and AI policy; Chinese commercial space; the
+economy; Taiwan and regional security; APEC and other diplomacy. Prefer official sources and wire
+services, and items from the last 72 hours; a white paper or policy document may be older, but
+label it as background and give its publication date.
 PREVIOUS
-Reply with ONLY a JSON object, no markdown, in this shape:
+Do not write any commentary while you search. When you have finished searching, reply with ONLY a
+JSON object, no markdown, in this shape:
 {
  "flash": [ {"level": "high|moderate|routine", "title": "...", "body": "2-3 sentences",
              "tags": ["..."], "sources": [{"name": "Reuters", "url": "https://..."}]} ],
@@ -55,7 +63,9 @@ Reply with ONLY a JSON object, no markdown, in this shape:
  "watchlist": [ {"date": "Nov 9", "event": "..."} ],
  "notes": "what you could not verify today"
 }
-Give 6 to 8 flash items, most important first. Every source url must be a page you actually found.
+Give 8 to 10 flash items, most important first, spread across the topics above (include at least
+one on EU-China relations and one on domestic policy if there is anything new). Put white papers and
+policy documents in the "leadership" section as items titled "White paper: ..." or "Policy document: ...". Every source url must be a page you actually found.
 Where a source is on this list use its exact name: SOURCELIST. Plain text only."""
 
 
@@ -101,8 +111,9 @@ def fetch():
     urls = set()
 
     def call(use_tools=True):
+        kw = {} if use_tools else {"tool_choice": {"type": "none"}}
         r = client.messages.create(model=MODEL, max_tokens=MAX_OUTPUT_TOKENS, system=SYSTEM,
-                                   messages=messages, tools=tools if use_tools else [])
+                                   messages=messages, tools=tools, **kw)
         u = r.usage
         stats["in"] += u.input_tokens
         stats["out"] += u.output_tokens
@@ -117,20 +128,32 @@ def fetch():
                     print("SEARCH PROBLEM:", getattr(b.content, "error_code", b.content))
         return r
 
+    def text_of(r):
+        return "".join(b.text for b in r.content if getattr(b, "type", "") == "text")
+
     r = call()
     for _ in range(4):  # long searches can pause; keep going
         if r.stop_reason != "pause_turn":
             break
         messages.append({"role": "assistant", "content": r.content})
         r = call()
-    text = "".join(b.text for b in r.content if b.type == "text")
+    text = text_of(r)
+    print(f"First reply: stop_reason={r.stop_reason}, {len(text)} characters of text.")
+    data = None
     try:
         data = parse(text)
     except ValueError:
-        messages.append({"role": "assistant", "content": text or "(no text)"})
-        messages.append({"role": "user", "content": "Reply with only the JSON object."})
+        pass
+    if not data or not data.get("flash"):
+        print("No usable dispatches in the first reply; asking for the JSON again. Reply began:",
+              repr(text[:300]))
+        messages.append({"role": "assistant", "content": r.content})
+        messages.append({"role": "user", "content": "Using the pages you just found, reply now with "
+                         "only the JSON object described above, with 8 to 10 flash items."})
         r = call(False)
-        data = parse("".join(b.text for b in r.content if b.type == "text"))
+        text = text_of(r)
+        print(f"Second reply: stop_reason={r.stop_reason}, {len(text)} characters of text.")
+        data = parse(text)
 
     print(f"Retrieved {len(urls)} distinct pages; model proposed "
           f"{len(data.get('flash', []))} dispatches.")
@@ -153,13 +176,21 @@ def report_cost(s):
 
 
 def parse(text):
-    m = re.search(r"\{.*\}", text, re.S)
-    if not m:
-        raise ValueError("no JSON found")
-    try:
-        return json.loads(m.group(0))
-    except json.JSONDecodeError as e:
-        raise ValueError(str(e))
+    """Find the JSON object in the reply (ignoring any chatter around it)."""
+    dec = json.JSONDecoder()
+    best = None
+    for m in re.finditer(r"\{", text):
+        try:
+            obj, _ = dec.raw_decode(text[m.start():])
+        except json.JSONDecodeError:
+            continue
+        if isinstance(obj, dict) and obj.get("flash"):
+            return obj
+        if isinstance(obj, dict) and best is None:
+            best = obj
+    if best is not None:
+        return best
+    raise ValueError("no usable JSON found")
 
 
 def sanitize(data, urls):
