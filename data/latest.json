@@ -2,37 +2,33 @@
   "flash": [
     {
       "level": "high",
-      "title": "US and China hold frank trade call ahead of Shenzhen APEC",
-      "body": "Bessent, Greer and He Lifeng held a call on Friday, November 7, to review the past year's trade commitments. The US pressed China to fully and promptly implement its commitments and raised concerns about recent Chinese actions, while Beijing voiced serious concerns about new US restrictive measures and both sides agreed to manage differences. A meeting between Trump and Xi is expected at the APEC summit in Shenzhen on November 18 and 19, but no trilateral talks have been confirmed.",
+      "title": "US and China readouts diverge on trade call ahead of Shenzhen APEC",
+      "body": "Treasury Secretary Bessent and USTR Greer held a call with Vice Premier He Lifeng on Friday. The US side pressed China on full and immediate implementation of its commitments and voiced concern about recent Chinese actions, while MOFCOM's readout described He as raising serious concerns about new US restrictive measures and called the talks frank and constructive. APEC leaders meet in Shenzhen on November 18-19, and a trilateral with Trump, Xi and Putin is reported as possible but is not confirmed.",
       "tags": [
         "US-China",
         "trade",
-        "APEC"
+        "APEC",
+        "MOFCOM"
       ],
       "sources": [
         {
-          "name": "Kuwait Times",
+          "name": "Hong Kong Free Press",
+          "url": "https://hongkongfp.com/2026/11/08/top-us-china-officials-raise-trade-concerns-as-apec-approaches/"
+        },
+        {
+          "name": "Kuwait Times (AFP)",
           "url": "https://kuwaittimes.com/article/53158/business/us-and-china-raise-trade-concerns-in-talks-ahead-of-apec-summit/"
-        },
-        {
-          "name": "WION",
-          "url": "https://www.wionews.com/world/us-asks-china-to-fulfil-trade-commitments-amid-row-over-sanctions-on-chinese-firms-over-cuba-links-1794030720449"
-        },
-        {
-          "name": "Türkiye Today",
-          "url": "https://www.turkiyetoday.com/world/senior-us-china-officials-exchange-trade-concerns-as-apec-summit-nears-3231910"
         }
       ]
     },
     {
       "level": "high",
-      "title": "China threatens countermeasures as EU readies a market-protection kill switch",
-      "body": "Chinese Ambassador to the EU Cai Run said on November 5 that Beijing will take countermeasures if the EU adopts restrictive or discriminatory measures. The European Commission is developing a tool to swiftly restrict imports in cases of severe market disruption, with Trade Commissioner Šefčovič saying the proposal would come by year-end, and EU leaders have also asked for quotas and tariffs on Chinese chemicals and machinery. The moves come despite a preliminary EU-China trade deal reached on October 10 that includes lower tariffs on some European goods and measures on rare earth supply.",
+      "title": "EU kill-switch tool: Brussels adds pressure on chemicals and machinery",
+      "body": "Trade Commissioner Šefčovič says the proposed kill-switch tool should be presented by the end of the year. Update since yesterday: EU leaders have asked the Commission to consider quotas and tariffs on Chinese chemicals and machinery imports, and media reports point to further import caps or tariffs as early as Q1 2027. Beijing's response, as reported, rejects politicising trade and warns of retaliation.",
       "tags": [
         "EU-China",
-        "trade",
-        "tariffs",
-        "export controls"
+        "trade defence",
+        "retaliation"
       ],
       "sources": [
         {
@@ -40,368 +36,298 @@
           "url": "https://www.euronews.com/2026/11/05/china-threatens-eu-with-retaliation-as-eu-mulls-kill-switch-to-defend-its-market"
         },
         {
-          "name": "AJP",
-          "url": "https://www.ajupress.com/view/20261106013723526"
-        },
-        {
-          "name": "Fortune",
-          "url": "https://fortune.com/2026/10/10/china-shock-eu-trade-deal-chinese-ev-plug-in-hybrid-imports-tariffs/"
+          "name": "BigGo Finance",
+          "url": "https://finance.biggo.com/news/14f59064-dc64-457c-9b46-21d254fcd419"
         }
       ]
     },
     {
       "level": "high",
-      "title": "Reports of a possible large unannounced PLA exercise around Taiwan",
-      "body": "A joint AEI and ISW update dated November 6 assesses that the PLA may be running a major unannounced exercise simulating the encirclement and isolation of Taiwan, involving the Eastern, Northern and Southern Theater Commands. Taiwan's Ministry of National Defense reported 49 Chinese military aircraft and six warships in the 24 hours before November 4, which analysts described as heightened gray-zone activity. Note that the AEI/ISW item is think-tank analysis rather than an official PRC or Taiwan announcement.",
+      "title": "Taiwan: PLA air activity rises, no named exercise announced",
+      "body": "Taiwan's MND counted 85 PLA aerial sorties from October 26 to November 1, up 85 percent on the prior week, per Taiwan Security Monitor. A Taiwanese defence analyst describes the recent surge as a quiet, unannounced exercise, and expects the carrier Shandong in a long-range drill around mid-November. Reports of a possible large exercise around Taiwan remain unconfirmed by any announcement.",
       "tags": [
         "Taiwan",
         "PLA",
-        "regional security"
+        "cross-strait"
       ],
       "sources": [
         {
-          "name": "AEI",
-          "url": "https://www.aei.org/commentary/china-taiwan-update-november-6-2026/"
+          "name": "Taiwan Security Monitor",
+          "url": "https://taiwansecuritymonitor.substack.com/p/pla-activity-update-the-week-of-october-87d"
         },
         {
           "name": "Taipei Times",
-          "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/04/2003867122"
-        }
-      ]
-    },
-    {
-      "level": "high",
-      "title": "Beijing steps up Middle East diplomacy with Iran, Saudi Arabia and Oman",
-      "body": "Wang Yi met Iran's deputy secretary of the Supreme National Security Council and Saudi Arabia's national security adviser in Beijing on November 2, calling for political solutions and dialogue. Xi separately hosted Oman's sultan, the first visit to Beijing by an Omani head of state since ties were established 48 years ago. The foreign ministry said on November 3 that China would step up communication with Saudi Arabia, Iran and other regional states, and China announced that special envoys would visit the Middle East and Africa later this month.",
-      "tags": [
-        "Middle East",
-        "Iran",
-        "Saudi Arabia",
-        "Oman",
-        "diplomacy"
-      ],
-      "sources": [
-        {
-          "name": "Reuters",
-          "url": "https://www.usnews.com/news/world/articles/2026-11-02/chinas-foreign-minister-pushes-for-dialogue-to-resolve-middle-east-conflict"
-        },
-        {
-          "name": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/11/02/beijing-launches-diplomatic-flurry-amid-threat-renewed-us-war-with-iran/"
-        },
-        {
-          "name": "MFA",
-          "url": "https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261103_12052547.html"
-        },
-        {
-          "name": "Daily Times",
-          "url": "https://dailytimes.com.pk/1575769/china-urges-iran-saudi-arabia-to-pursue-dialogue/"
+          "url": "https://taipeitimes.com/News/taiwan/archives/2026/11/04/2003867122"
         }
       ]
     },
     {
       "level": "moderate",
-      "title": "State Council calls for steadier stock market and fiscal-financial coordination",
-      "body": "At a State Council executive meeting chaired by Premier Li Qiang on November 6, leaders called for better capital market stabilization mechanisms and stronger internal stability in the stock market. The meeting also stressed using policy funds to boost domestic demand, defusing local government debt and small-bank risks, and studying next year's economic work. Bloomberg notes this follows a series of support measures from financial regulators.",
+      "title": "Affiliates Rule suspension formalised to January 10, 2027",
+      "body": "BIS released a final rule on November 5 formally extending the suspension of the Affiliates Rule to January 10, 2027. The rule does not otherwise modify the Affiliates Rule or act on public comments, which BIS says it will consider in future rulemakings. Practitioners warn that China's global rare-earth controls and the Affiliates Rule could both take effect in January if no permanent bilateral deal is reached.",
       "tags": [
-        "domestic policy",
-        "State Council",
-        "capital markets",
-        "economy"
+        "BIS",
+        "export controls",
+        "rare earths"
       ],
       "sources": [
         {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-06/china-s-state-council-calls-for-stronger-stock-market-stability"
+          "name": "Baker McKenzie blog",
+          "url": "https://sanctionsnews.bakermckenzie.com/bis-extends-suspension-of-the-affiliates-rule-through-january-10-2027/"
         },
         {
-          "name": "PANews",
+          "name": "Trade Compliance Resource Hub",
+          "url": "https://www.tradecomplianceresourcehub.com/2026/11/06/bis-further-suspends-affiliates-rule-until-january-2027/"
+        }
+      ]
+    },
+    {
+      "level": "moderate",
+      "title": "Beijing steps up Middle East and Mekong diplomacy",
+      "body": "Wang Yi met Iran's Ali Bagheri Kani on November 2, and Xi and Oman's Sultan Haitham held talks during a Gulf visit. The MFA said on November 4 that China is ready to step up communication with Saudi Arabia, Iran and other regional states as tensions escalate, and argued military means are not the answer. The 11th Lancang-Mekong Foreign Ministers' Meeting was held in Beijing on November 4.",
+      "tags": [
+        "Middle East",
+        "Iran",
+        "Saudi Arabia",
+        "Oman",
+        "Mekong"
+      ],
+      "sources": [
+        {
+          "name": "MFA",
+          "url": "https://www.fmprc.gov.cn/mfa_eng/"
+        },
+        {
+          "name": "MFA",
+          "url": "https://www.mfa.gov.cn/eng/xw/fyrbt/lxjzh/202611/t20261104_12053240.html"
+        },
+        {
+          "name": "MFA",
+          "url": "https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261103_12052547.html"
+        }
+      ]
+    },
+    {
+      "level": "moderate",
+      "title": "State Council stresses fiscal-financial coordination and capital market stability",
+      "body": "Premier Li Qiang chaired a State Council executive meeting on November 6. The meeting called for using policy funds to leverage fiscal-financial coordination for domestic demand, defusing local government debt and small bank risks, and improving the capital market stabilisation mechanism. It also ordered study of next year's economic work plan.",
+      "tags": [
+        "State Council",
+        "fiscal",
+        "capital markets",
+        "domestic policy"
+      ],
+      "sources": [
+        {
+          "name": "PANews (citing CCTV)",
           "url": "https://panews.io/articles/01a1b118-2d4a-767e-8642-309c46682b0e"
         }
       ]
     },
     {
       "level": "moderate",
-      "title": "MFA blames Japan for serious strain in China-Japan ties",
-      "body": "At its November 6 briefing, the foreign ministry said the current serious difficulties in China-Japan relations were entirely the responsibility of the Japanese side. It tied this to remarks made by Japan's leader about a year ago on Taiwan, which Beijing said signaled potential military intervention. The statement adds to recent Chinese pressure on Tokyo over Taiwan.",
+      "title": "MFA asked to comment on reported block of SoftBank bid for ABB robotics",
+      "body": "At the November 5 MFA briefing, AFP cited a Financial Times report that China told SoftBank it will not allow its acquisition of ABB's robotics division to proceed and asked Beijing to confirm or comment. I could not retrieve the spokesperson's answer, so the status of the deal is unverified.",
       "tags": [
-        "Japan",
-        "Taiwan",
-        "Asia-Pacific"
+        "investment",
+        "robotics",
+        "MFA"
       ],
       "sources": [
         {
           "name": "MFA",
-          "url": "https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261106_12055022.html"
-        }
-      ]
-    },
-    {
-      "level": "moderate",
-      "title": "US extends suspension of BIS affiliates rule to January 10",
-      "body": "The Bureau of Industry and Security issued a final rule extending the suspension of its 50 per cent affiliate rule until January 10, when the current US-China trade truce also expires. The move comes ahead of a new round of bilateral trade talks in Shenzhen later this month, where Vice Premier He Lifeng is expected to meet Treasury Secretary Bessent. The affiliates rule had prompted Beijing to expand its rare earth export controls last year.",
-      "tags": [
-        "US-China",
-        "export controls",
-        "BIS",
-        "trade truce"
-      ],
-      "sources": [
-        {
-          "name": "SCMP",
-          "url": "https://scmp.com/economy/policy/article/3373520/ahead-shenzhen-trade-talks-us-holds-blacklist-rule-angered-beijing"
-        }
-      ]
-    },
-    {
-      "level": "moderate",
-      "title": "China rebukes UK over AI hacking allegations; draft tech export controls open for comment",
-      "body": "The foreign ministry on November 4 accused the UK of politicizing cybersecurity and using hacking allegations to curb China's AI development, calling the accusations baseless. Separately, reporting says China published draft export controls on 40 strategic technology systems, 23 of them tied to AI, with public comment open until November 15. The draft-control detail comes from a secondary report and has not been checked against an official Chinese text.",
-      "tags": [
-        "AI",
-        "technology",
-        "export controls",
-        "UK-China"
-      ],
-      "sources": [
-        {
-          "name": "MFA",
-          "url": "https://www.mfa.gov.cn/eng/xw/fyrbt/lxjzh/202611/t20261104_12053240.html"
-        },
-        {
-          "name": "Multibagg",
-          "url": "https://www.multibagg.ai/market-pulse/articles/congress-change-china-trade-impact-cmw1o71mj0003ew2rawozy0n0"
+          "url": "https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261105_12053977.html"
         }
       ]
     },
     {
       "level": "routine",
-      "title": "Official Q3 data: GDP 4.5%, but investment and property weak",
-      "body": "The NBS reported third-quarter GDP growth of 4.5 percent and 4.6 percent for the first three quarters, with the full-year target range of 4.5 to 5 percent. Fixed-asset investment fell 7.2 percent in the first nine months, and property development investment fell 20.6 percent. NBS October activity data is due on November 16.",
+      "title": "Trade momentum strong; October trade data due November 10",
+      "body": "China's September goods trade reached a record 5.16 trillion yuan, with exports up 29.6 percent in yuan terms, and exports to the US rose sharply. Reuters-sourced reporting put September exports up 36.3 percent in dollar terms, the fastest since February. The October customs release is scheduled for November 10.",
       "tags": [
         "economy",
-        "NBS",
-        "property"
+        "trade",
+        "exports"
       ],
       "sources": [
         {
-          "name": "Xinhua",
-          "url": "https://english.www.gov.cn/archive/statistics/202610/19/content_WS6ad5a59bc6d00ca5f9a0dc86.html"
+          "name": "English.gov.cn (GACC data)",
+          "url": "https://english.www.gov.cn/archive/statistics/202610/14/content_WS6acf1570c6d00ca5f9a0dabb.html"
         },
         {
-          "name": "Global Times",
-          "url": "https://www.globaltimes.cn/page/202610/1372515.shtml"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html"
         },
         {
-          "name": "ProfileNews",
-          "url": "https://www.profilenews.com/en/china-economy/"
-        },
-        {
-          "name": "Vantage Markets",
-          "url": "https://www.vantagemarkets.com/market-analysis/china-gdp-q3-2026/"
+          "name": "Trading Economics",
+          "url": "https://tradingeconomics.com/china/balance-of-trade"
         }
       ]
     },
     {
       "level": "routine",
-      "title": "Commercial launch cadence continues in early November",
-      "body": "A NASASpaceFlight preview listed a Kinetica-2 launch from Jiuquan on November 3, a Long March 12 (CZ-12) launch from Wenchang's commercial pad scheduled for November 5, and a Ceres-2 solid rocket from Galactic Energy on November 6. I could not confirm whether these launches took place or succeeded.",
+      "title": "Commercial launches continue: CERES-2 Y3 and Lijian-2 Y2",
+      "body": "Galactic Energy's CERES-2 Y3 launched from Jiuquan on November 7, carrying four satellites to a 535 km sun-synchronous orbit. A Lijian-2 Y2 rocket launched a new satellite group from the Dongfeng commercial space pilot zone on November 3.",
       "tags": [
         "commercial space",
         "launch"
       ],
       "sources": [
         {
-          "name": "NASASpaceFlight",
-          "url": "https://www.nasaspaceflight.com/2026/11/launch-preview-110226/"
+          "name": "CGTN",
+          "url": "https://news.cgtn.com/news/2026-11-07/China-launches-CERES-2-Y3-rocket-1RSbe0k53l6/share_amp.html"
+        },
+        {
+          "name": "CGTN",
+          "url": "https://news.cgtn.com/news/2026-11-03/China-s-Lijian-2-rocket-launches-new-group-of-satellites-1RLCCO0cxQ4/p.html"
+        }
+      ]
+    },
+    {
+      "level": "routine",
+      "title": "Hong Kong national security case: MFA backs prosecution",
+      "body": "At its November 5 briefing, the MFA said a defendant in a Hong Kong national security case pleaded guilty after facing overwhelming evidence. It said the central government firmly supports the HKSAR in punishing acts that endanger national security.",
+      "tags": [
+        "Hong Kong",
+        "national security"
+      ],
+      "sources": [
+        {
+          "name": "MFA",
+          "url": "https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261105_12053977.html"
         }
       ]
     }
   ],
   "leadership": [
     {
-      "title": "Xi Jinping and Wang Yi: diplomacy this week",
+      "title": "MFA briefings and senior diplomacy",
       "bullets": [
-        "Wang Yi met Iran's deputy secretary of the Supreme National Security Council and Saudi Arabia's national security adviser in Beijing on November 2 and urged a political solution to the Middle East conflict.",
-        "Xi hosted Oman's Sultan Haitham, the first Omani head of state visit to Beijing since diplomatic ties were established 48 years ago.",
-        "Wang Yi chaired the 11th Lancang-Mekong Cooperation Foreign Ministers' Meeting in Beijing on November 3 and 4, and co-chaired the 37th APEC Ministerial Meeting by video on November 3.",
-        "Gabon's President Oligui Nguema is on a state visit to China from November 3 to 7.",
-        "Wang Yi met Cambodia's and Vietnam's foreign ministers on November 4 and a Workers' Party of Korea delegation on November 5.",
-        "Vice President Han Zheng is travelling to Türkiye from November 6 to 12 for the Antalya leaders' summit at COP31 as Xi's special representative, and will visit Georgia."
+        "Wang Yi met Iran's Deputy Secretary of the Supreme National Security Council on November 2, and met Thailand's foreign minister and Myanmar's planning minister on November 3.",
+        "Mao Ning's November 4 briefing said China is in communication about a possible meeting of three heads of state, without naming them.",
+        "Guo Jiakun's November 5 briefing addressed Hong Kong national security and the reported ABB robotics question."
       ],
       "sources": [
         {
-          "name": "Reuters",
-          "url": "https://www.usnews.com/news/world/articles/2026-11-02/chinas-foreign-minister-pushes-for-dialogue-to-resolve-middle-east-conflict"
-        },
-        {
-          "name": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/11/02/beijing-launches-diplomatic-flurry-amid-threat-renewed-us-war-with-iran/"
+          "name": "MFA",
+          "url": "https://www.fmprc.gov.cn/mfa_eng/"
         },
         {
           "name": "MFA",
-          "url": "https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261103_12052547.html"
-        },
-        {
-          "name": "MFA",
-          "url": "https://penang.china-consulate.gov.cn/eng/fyrth_16/202611/t20261102_12051648.htm"
-        },
-        {
-          "name": "MFA",
-          "url": "https://www.fmprc.gov.cn/eng/wjb/wjbz/"
-        },
-        {
-          "name": "PRC Embassy",
-          "url": "https://kw.china-embassy.gov.cn/eng/fyrth/202611/t20261104_12053240.htm"
+          "url": "https://www.mfa.gov.cn/eng/xw/fyrbt/lxjzh/202611/t20261104_12053240.html"
         }
       ]
     },
     {
-      "title": "State Council and Premier Li Qiang",
+      "title": "State Council executive meeting, November 6",
       "bullets": [
-        "At the November 6 executive meeting, leaders discussed capital market stability and next year's economic work, as covered in the flash section.",
-        "On October 23 the executive meeting studied population-development measures, skills training for full employment, and steps to support a birth-friendly society and the services sector.",
-        "On October 19 the executive meeting heard a progress report on the AI Plus initiative, approved in principle a draft Teachers Law revision and a draft Pricing Law amendment for NPC Standing Committee deliberation, and amended 14 administrative regulations."
+        "Li Qiang chaired the meeting, focusing on fiscal-financial coordination and local government debt risks.",
+        "Meeting ordered capital market stabilisation mechanism improvements and study of next year's economic work."
       ],
       "sources": [
         {
-          "name": "PANews",
+          "name": "PANews (citing CCTV)",
           "url": "https://panews.io/articles/01a1b118-2d4a-767e-8642-309c46682b0e"
-        },
-        {
-          "name": "CGTN",
-          "url": "https://news.cgtn.com/news/2026-10-23/Chinese-premier-chairs-State-Council-executive-meeting-1RtYAntya0U/p.html"
-        },
-        {
-          "name": "Xinhua",
-          "url": "https://en.moj.gov.cn/2026-10/19/c_1220607.htm"
         }
       ]
     },
     {
-      "title": "Party and PLA leadership",
+      "title": "White paper: More Just and Equitable Global Governance: China's Principles, Proposals and Actions (background, published June 17, 2026)",
       "bullets": [
-        "Taiwanese analysts report that the fifth plenum of the Central Committee, which closed in late October, elevated Zhang Shengmin, the last remaining Central Military Commission general, to the Politburo without filling vacancies in the high command. This is analyst assessment rather than an official announcement."
-      ],
-      "sources": [
-        {
-          "name": "Taipei Times",
-          "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/01/2003866956"
-        }
-      ]
-    },
-    {
-      "title": "MFA spokesperson line, November 6",
-      "bullets": [
-        "Guo Jiakun said China-Cuba cooperation is above board, responding to US sanctions on two Chinese firms.",
-        "China congratulated Grenada's Prime Minister on his reelection and described Africa as part of a shared-future community.",
-        "On the Japan dispute, the ministry blamed Japan's leader for the strain in ties."
-      ],
-      "sources": [
-        {
-          "name": "MFA",
-          "url": "https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261106_12055022.html"
-        }
-      ]
-    },
-    {
-      "title": "White paper: More Just and Equitable Global Governance: China's Principles, Proposals and Actions (background; published June 17, 2026 by the SCIO)",
-      "bullets": [
-        "The paper sets out China's proposals for a more just and equitable global governance system and presents them as a roadmap for reform.",
-        "It stresses that upholding the UN's authority and status is fundamental to implementing the initiative.",
-        "It has five main parts, covering global challenges, the Global Governance Initiative, China's contributions, the direction of change, and the way forward."
+        "Issued by the State Council Information Office; promotes the Global Governance Initiative.",
+        "Frames global governance as a matter of justice rather than deal-making and calls for a roadmap and timeline for joint action."
       ],
       "sources": [
         {
           "name": "Xinhua",
-          "url": "http://english.scio.gov.cn/m/whitepapers/2026-06/17/content_118552814.html"
+          "url": "http://english.scio.gov.cn/whitepapers/2026-06/17/content_118552873.html"
         },
         {
-          "name": "CGTN",
-          "url": "https://news.cgtn.com/news/2026-06-17/Chinese-government-releases-white-paper-on-global-governance-1O2EJqQzjEs/p.html"
+          "name": "English.gov.cn",
+          "url": "https://english.www.gov.cn/news/202606/17/content_WS6a3234fec6d00ca5f9a0ba8c.html"
         }
       ]
     },
     {
-      "title": "White paper: Hong Kong: Safeguarding China's National Security Under the Framework of One Country, Two Systems (background; published February 10, 2026 by the SCIO)",
+      "title": "White paper: Hong Kong: Safeguarding China's National Security Under the Framework of One Country, Two Systems (background, published February 10, 2026)",
       "bullets": [
-        "The paper sets out the central government's responsibility for national security matters concerning Hong Kong and the HKSAR's achievements in meeting its constitutional duty.",
-        "It frames the period as a move from disorder to stability and calls for high-standard security to support one country, two systems."
+        "Issued by the State Council Information Office with a preface, five parts and a conclusion.",
+        "Asserts central government jurisdiction over national security in Hong Kong and says the SAR is steady despite external challenges."
       ],
       "sources": [
         {
           "name": "Xinhua",
-          "url": "http://english.scio.gov.cn/whitepapers/2026-02/10/content_118326409.html"
+          "url": "http://english.scio.gov.cn/whitepapers/2026-02/10/content_118326407.html"
         }
       ]
     },
     {
-      "title": "Policy document: Interim Measures for the Administration of AI Anthropomorphic Interactive Services (background; issued April 10, 2026 by the CAC with four other departments, effective July 15, 2026)",
+      "title": "Policy document: Interim Measures on anthropomorphic AI interaction services (background, issued April 2026)",
       "bullets": [
-        "The measures cover services that simulate personality traits and communication styles in continuous emotional interaction for the domestic public.",
-        "Providers must clearly tell users they are dealing with an AI system rather than a human."
+        "Issued by the CAC with four partner agencies; the CAC published the draft on April 10, 2026.",
+        "Covers AI companions and emotional-interaction services, with consumer protection, minors and elderly safeguards; listed as effective July 15, 2026 by one tracker."
       ],
       "sources": [
         {
-          "name": "Bird & Bird",
-          "url": "https://www.twobirds.com/en/insights/2026/china/china's-new-regulations-on-ai-anthropomorphic-interactive-services"
-        }
-      ]
-    },
-    {
-      "title": "Policy document: September 29 property and growth measures (background; announced by PBOC and Ministry of Finance)",
-      "bullets": [
-        "The PBOC cut the one-year pledged supplementary lending rate by a quarter point to 1.5 percent and announced higher relending support for technology innovation.",
-        "The Ministry of Finance announced mortgage interest subsidies for eligible first-time homebuyers, covering purchases up to 120 square meters and up to 1.5 million yuan."
-      ],
-      "sources": [
-        {
-          "name": "Korea Times",
-          "url": "https://www.koreatimes.co.kr/world/20260929/china-rolls-out-new-measures-to-bolster-its-property-sector-and-economy"
+          "name": "AI Regulation in China tracker",
+          "url": "https://artificialintelligenceregulations.com/jurisdictions/china.html"
         },
         {
-          "name": "Daily Sabah",
-          "url": "https://www.dailysabah.com/business/economy/china-rolls-out-fresh-measures-to-prop-up-property-market-housing"
+          "name": "AI Governance",
+          "url": "https://aigovernance.com/news/cac-draft-rules-target-human-like-ai-services-triggering-new-security-assessment-and-content-governance-obligations-for-china-market-operators"
+        }
+      ]
+    },
+    {
+      "title": "Policy document: Implementation opinions on intelligent agents (background, May 8, 2026)",
+      "bullets": [
+        "Jointly issued by the CAC, NDRC and MIIT; treats agentic AI as a separately regulated category.",
+        "Covers standardised application and innovative development of intelligent agents."
+      ],
+      "sources": [
+        {
+          "name": "AI Policy and Regulation guide",
+          "url": "https://asiaai.fyi/guides/china-ai-policy-and-regulation/"
         }
       ]
     }
   ],
   "state_media": {
     "bullets": [
-      "Xinhua and the NBS framed Q3 growth as on track for the annual target while noting the economy's downward pressures.",
-      "Global Times and China Daily ran coverage of Wang Yi's Middle East meetings and the planned envoy visits, with China Daily framing the push as easing regional tensions.",
-      "The MFA spokesperson used its briefings to rebut the UK's AI hacking claims and to blame Japan for ties strain.",
-      "State media coverage of the Bessent-He Lifeng call was limited to a commerce ministry readout describing talks as frank and constructive."
+      "Chinese readouts of the He Lifeng call stress 'frank, in-depth and constructive' talks and objections to US restrictive measures, while US readouts stress compliance.",
+      "MFA messaging on the UK says Britain is rehashing hacking allegations as a pretext to curb China's AI development.",
+      "MFA frames Middle East diplomacy as dialogue and deescalation, rejecting military solutions.",
+      "MFA frames Hong Kong national security prosecutions as lawful and supported by the central government."
     ],
-    "temperature": "My read: state media is projecting confidence on growth and diplomacy while staying defensive on the EU, Japan and US restrictions."
+    "temperature": "My read: the tone is confident and conciliatory toward Washington ahead of APEC, while still pushing back on EU trade defence and Western criticism of AI."
   },
   "watchlist": [
     {
-      "date": "Nov 6-12",
-      "event": "Han Zheng travels to Türkiye for the Antalya leaders' summit at COP31 and visits Georgia."
+      "date": "Nov 9",
+      "event": "Original end of the one-year Affiliates Rule suspension; BIS has extended it to January 10, 2027."
     },
     {
-      "date": "Nov 15",
-      "event": "Public comment period closes on China's draft export controls covering 40 technology systems, per a secondary report."
+      "date": "Nov 10",
+      "event": "China's October trade data release (per Trading Economics calendar); CIIE in Shanghai closes."
     },
     {
-      "date": "Nov 16",
-      "event": "NBS releases October activity data on industrial output, retail sales and fixed-asset investment."
+      "date": "Mid-Nov",
+      "event": "Possible long-range PLA naval drill involving the carrier Shandong, per Taiwan analyst expectations."
     },
     {
       "date": "Nov 18-19",
-      "event": "APEC summit in Shenzhen; a Trump-Xi meeting is expected but not confirmed."
+      "event": "APEC Economic Leaders' Meeting in Shenzhen; possible Xi-Trump meeting, with a Putin trilateral unconfirmed."
     },
     {
-      "date": "Year-end",
-      "event": "European Commission to present its proposed EU kill-switch import tool, per Šefčovič."
+      "date": "Dec",
+      "event": "G20 summit in Miami, where Trump has said he expects to meet Xi."
     },
     {
       "date": "Jan 10, 2027",
-      "event": "US-China trade truce and the suspension of BIS's 50 per cent affiliate rule expire."
+      "event": "Trade truce and Affiliates Rule suspension expire unless extended."
     }
   ],
-  "notes": "Could not verify: whether the Ministry of Commerce or BIS published the Shenzhen talks or an APEC meeting agenda; whether a Russian defense minister visit to China took place (raised at the November 3 MFA briefing with no answer found); the outcomes of the early-November launches; any NPC Standing Committee session in the current period; any Five-Year Plan implementation documents issued in the last 72 hours; and any new employment or social-policy measures this week. Russia, Global South and broader foreign-policy coverage were thin because the search budget was exhausted. Items drawn from secondary or think-tank sources (AEI/ISW, Multibagg, Taipei Times, PANews) should be checked against primary texts before circulation. The Chinese side's details of the EU preliminary trade deal and the US call readout were not in primary form.",
-  "date": "2026-11-08",
-  "generated": "2026-11-08 18:43"
+  "notes": "Not verified today: no primary Treasury or MOFCOM statement URLs were retrieved (readouts cited via press reports); the MFA response on the ABB/SoftBank report was not retrieved; no new AI or tech export-control action from the last four days was found (AI items are background); the Russian defence minister visit mentioned in the Nov 3 MFA transcript could not be verified for 2026; no Japan-China update found; no Taiwan MND primary release found; no official NBS October data found; SCIO leadership changes were not confirmed. Search budget was exhausted.",
+  "date": "2026-11-09",
+  "generated": "2026-11-09 07:05"
 }

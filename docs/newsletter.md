@@ -1,52 +1,52 @@
-# Chancery Brief — Beijing, Sunday 08 November 2026
+# Chancery Brief — Beijing, Monday 09 November 2026
 
-**1. US and China hold frank trade call ahead of Shenzhen APEC**
-Bessent, Greer and He Lifeng held a call on Friday, November 7, to review the past year's trade commitments. The US pressed China to fully and promptly implement its commitments and raised concerns about recent Chinese actions, while Beijing voiced serious concerns about new US restrictive measures and both sides agreed to manage differences. A meeting between Trump and Xi is expected at the APEC summit in Shenzhen on November 18 and 19, but no trilateral talks have been confirmed.
-Sources: [Kuwait Times](https://kuwaittimes.com/article/53158/business/us-and-china-raise-trade-concerns-in-talks-ahead-of-apec-summit/), [WION](https://www.wionews.com/world/us-asks-china-to-fulfil-trade-commitments-amid-row-over-sanctions-on-chinese-firms-over-cuba-links-1794030720449), [Türkiye Today](https://www.turkiyetoday.com/world/senior-us-china-officials-exchange-trade-concerns-as-apec-summit-nears-3231910)
+**1. US and China readouts diverge on trade call ahead of Shenzhen APEC**
+Treasury Secretary Bessent and USTR Greer held a call with Vice Premier He Lifeng on Friday. The US side pressed China on full and immediate implementation of its commitments and voiced concern about recent Chinese actions, while MOFCOM's readout described He as raising serious concerns about new US restrictive measures and called the talks frank and constructive. APEC leaders meet in Shenzhen on November 18-19, and a trilateral with Trump, Xi and Putin is reported as possible but is not confirmed.
+Sources: [Hong Kong Free Press](https://hongkongfp.com/2026/11/08/top-us-china-officials-raise-trade-concerns-as-apec-approaches/), [Kuwait Times (AFP)](https://kuwaittimes.com/article/53158/business/us-and-china-raise-trade-concerns-in-talks-ahead-of-apec-summit/)
 
-**2. China threatens countermeasures as EU readies a market-protection kill switch**
-Chinese Ambassador to the EU Cai Run said on November 5 that Beijing will take countermeasures if the EU adopts restrictive or discriminatory measures. The European Commission is developing a tool to swiftly restrict imports in cases of severe market disruption, with Trade Commissioner Šefčovič saying the proposal would come by year-end, and EU leaders have also asked for quotas and tariffs on Chinese chemicals and machinery. The moves come despite a preliminary EU-China trade deal reached on October 10 that includes lower tariffs on some European goods and measures on rare earth supply.
-Sources: [Euronews](https://www.euronews.com/2026/11/05/china-threatens-eu-with-retaliation-as-eu-mulls-kill-switch-to-defend-its-market), [AJP](https://www.ajupress.com/view/20261106013723526), [Fortune](https://fortune.com/2026/10/10/china-shock-eu-trade-deal-chinese-ev-plug-in-hybrid-imports-tariffs/)
+**2. EU kill-switch tool: Brussels adds pressure on chemicals and machinery**
+Trade Commissioner Šefčovič says the proposed kill-switch tool should be presented by the end of the year. Update since yesterday: EU leaders have asked the Commission to consider quotas and tariffs on Chinese chemicals and machinery imports, and media reports point to further import caps or tariffs as early as Q1 2027. Beijing's response, as reported, rejects politicising trade and warns of retaliation.
+Sources: [Euronews](https://www.euronews.com/2026/11/05/china-threatens-eu-with-retaliation-as-eu-mulls-kill-switch-to-defend-its-market), [BigGo Finance](https://finance.biggo.com/news/14f59064-dc64-457c-9b46-21d254fcd419)
 
-**3. Reports of a possible large unannounced PLA exercise around Taiwan**
-A joint AEI and ISW update dated November 6 assesses that the PLA may be running a major unannounced exercise simulating the encirclement and isolation of Taiwan, involving the Eastern, Northern and Southern Theater Commands. Taiwan's Ministry of National Defense reported 49 Chinese military aircraft and six warships in the 24 hours before November 4, which analysts described as heightened gray-zone activity. Note that the AEI/ISW item is think-tank analysis rather than an official PRC or Taiwan announcement.
-Sources: [AEI](https://www.aei.org/commentary/china-taiwan-update-november-6-2026/), [Taipei Times](https://www.taipeitimes.com/News/taiwan/archives/2026/11/04/2003867122)
+**3. Taiwan: PLA air activity rises, no named exercise announced**
+Taiwan's MND counted 85 PLA aerial sorties from October 26 to November 1, up 85 percent on the prior week, per Taiwan Security Monitor. A Taiwanese defence analyst describes the recent surge as a quiet, unannounced exercise, and expects the carrier Shandong in a long-range drill around mid-November. Reports of a possible large exercise around Taiwan remain unconfirmed by any announcement.
+Sources: [Taiwan Security Monitor](https://taiwansecuritymonitor.substack.com/p/pla-activity-update-the-week-of-october-87d), [Taipei Times](https://taipeitimes.com/News/taiwan/archives/2026/11/04/2003867122)
 
-**4. Beijing steps up Middle East diplomacy with Iran, Saudi Arabia and Oman**
-Wang Yi met Iran's deputy secretary of the Supreme National Security Council and Saudi Arabia's national security adviser in Beijing on November 2, calling for political solutions and dialogue. Xi separately hosted Oman's sultan, the first visit to Beijing by an Omani head of state since ties were established 48 years ago. The foreign ministry said on November 3 that China would step up communication with Saudi Arabia, Iran and other regional states, and China announced that special envoys would visit the Middle East and Africa later this month.
-Sources: [Reuters](https://www.usnews.com/news/world/articles/2026-11-02/chinas-foreign-minister-pushes-for-dialogue-to-resolve-middle-east-conflict), [Washington Post](https://www.washingtonpost.com/world/2026/11/02/beijing-launches-diplomatic-flurry-amid-threat-renewed-us-war-with-iran/), [MFA](https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261103_12052547.html), [Daily Times](https://dailytimes.com.pk/1575769/china-urges-iran-saudi-arabia-to-pursue-dialogue/)
+**4. Affiliates Rule suspension formalised to January 10, 2027**
+BIS released a final rule on November 5 formally extending the suspension of the Affiliates Rule to January 10, 2027. The rule does not otherwise modify the Affiliates Rule or act on public comments, which BIS says it will consider in future rulemakings. Practitioners warn that China's global rare-earth controls and the Affiliates Rule could both take effect in January if no permanent bilateral deal is reached.
+Sources: [Baker McKenzie blog](https://sanctionsnews.bakermckenzie.com/bis-extends-suspension-of-the-affiliates-rule-through-january-10-2027/), [Trade Compliance Resource Hub](https://www.tradecomplianceresourcehub.com/2026/11/06/bis-further-suspends-affiliates-rule-until-january-2027/)
 
-**5. State Council calls for steadier stock market and fiscal-financial coordination**
-At a State Council executive meeting chaired by Premier Li Qiang on November 6, leaders called for better capital market stabilization mechanisms and stronger internal stability in the stock market. The meeting also stressed using policy funds to boost domestic demand, defusing local government debt and small-bank risks, and studying next year's economic work. Bloomberg notes this follows a series of support measures from financial regulators.
-Sources: [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-06/china-s-state-council-calls-for-stronger-stock-market-stability), [PANews](https://panews.io/articles/01a1b118-2d4a-767e-8642-309c46682b0e)
+**5. Beijing steps up Middle East and Mekong diplomacy**
+Wang Yi met Iran's Ali Bagheri Kani on November 2, and Xi and Oman's Sultan Haitham held talks during a Gulf visit. The MFA said on November 4 that China is ready to step up communication with Saudi Arabia, Iran and other regional states as tensions escalate, and argued military means are not the answer. The 11th Lancang-Mekong Foreign Ministers' Meeting was held in Beijing on November 4.
+Sources: [MFA](https://www.fmprc.gov.cn/mfa_eng/), [MFA](https://www.mfa.gov.cn/eng/xw/fyrbt/lxjzh/202611/t20261104_12053240.html), [MFA](https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261103_12052547.html)
 
-**6. MFA blames Japan for serious strain in China-Japan ties**
-At its November 6 briefing, the foreign ministry said the current serious difficulties in China-Japan relations were entirely the responsibility of the Japanese side. It tied this to remarks made by Japan's leader about a year ago on Taiwan, which Beijing said signaled potential military intervention. The statement adds to recent Chinese pressure on Tokyo over Taiwan.
-Sources: [MFA](https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261106_12055022.html)
+**6. State Council stresses fiscal-financial coordination and capital market stability**
+Premier Li Qiang chaired a State Council executive meeting on November 6. The meeting called for using policy funds to leverage fiscal-financial coordination for domestic demand, defusing local government debt and small bank risks, and improving the capital market stabilisation mechanism. It also ordered study of next year's economic work plan.
+Sources: [PANews (citing CCTV)](https://panews.io/articles/01a1b118-2d4a-767e-8642-309c46682b0e)
 
-**7. US extends suspension of BIS affiliates rule to January 10**
-The Bureau of Industry and Security issued a final rule extending the suspension of its 50 per cent affiliate rule until January 10, when the current US-China trade truce also expires. The move comes ahead of a new round of bilateral trade talks in Shenzhen later this month, where Vice Premier He Lifeng is expected to meet Treasury Secretary Bessent. The affiliates rule had prompted Beijing to expand its rare earth export controls last year.
-Sources: [SCMP](https://scmp.com/economy/policy/article/3373520/ahead-shenzhen-trade-talks-us-holds-blacklist-rule-angered-beijing)
+**7. MFA asked to comment on reported block of SoftBank bid for ABB robotics**
+At the November 5 MFA briefing, AFP cited a Financial Times report that China told SoftBank it will not allow its acquisition of ABB's robotics division to proceed and asked Beijing to confirm or comment. I could not retrieve the spokesperson's answer, so the status of the deal is unverified.
+Sources: [MFA](https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261105_12053977.html)
 
-**8. China rebukes UK over AI hacking allegations; draft tech export controls open for comment**
-The foreign ministry on November 4 accused the UK of politicizing cybersecurity and using hacking allegations to curb China's AI development, calling the accusations baseless. Separately, reporting says China published draft export controls on 40 strategic technology systems, 23 of them tied to AI, with public comment open until November 15. The draft-control detail comes from a secondary report and has not been checked against an official Chinese text.
-Sources: [MFA](https://www.mfa.gov.cn/eng/xw/fyrbt/lxjzh/202611/t20261104_12053240.html), [Multibagg](https://www.multibagg.ai/market-pulse/articles/congress-change-china-trade-impact-cmw1o71mj0003ew2rawozy0n0)
+**8. Trade momentum strong; October trade data due November 10**
+China's September goods trade reached a record 5.16 trillion yuan, with exports up 29.6 percent in yuan terms, and exports to the US rose sharply. Reuters-sourced reporting put September exports up 36.3 percent in dollar terms, the fastest since February. The October customs release is scheduled for November 10.
+Sources: [English.gov.cn (GACC data)](https://english.www.gov.cn/archive/statistics/202610/14/content_WS6acf1570c6d00ca5f9a0dabb.html), [CNBC](https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html), [Trading Economics](https://tradingeconomics.com/china/balance-of-trade)
 
-**9. Official Q3 data: GDP 4.5%, but investment and property weak**
-The NBS reported third-quarter GDP growth of 4.5 percent and 4.6 percent for the first three quarters, with the full-year target range of 4.5 to 5 percent. Fixed-asset investment fell 7.2 percent in the first nine months, and property development investment fell 20.6 percent. NBS October activity data is due on November 16.
-Sources: [Xinhua](https://english.www.gov.cn/archive/statistics/202610/19/content_WS6ad5a59bc6d00ca5f9a0dc86.html), [Global Times](https://www.globaltimes.cn/page/202610/1372515.shtml), [ProfileNews](https://www.profilenews.com/en/china-economy/), [Vantage Markets](https://www.vantagemarkets.com/market-analysis/china-gdp-q3-2026/)
+**9. Commercial launches continue: CERES-2 Y3 and Lijian-2 Y2**
+Galactic Energy's CERES-2 Y3 launched from Jiuquan on November 7, carrying four satellites to a 535 km sun-synchronous orbit. A Lijian-2 Y2 rocket launched a new satellite group from the Dongfeng commercial space pilot zone on November 3.
+Sources: [CGTN](https://news.cgtn.com/news/2026-11-07/China-launches-CERES-2-Y3-rocket-1RSbe0k53l6/share_amp.html), [CGTN](https://news.cgtn.com/news/2026-11-03/China-s-Lijian-2-rocket-launches-new-group-of-satellites-1RLCCO0cxQ4/p.html)
 
-**10. Commercial launch cadence continues in early November**
-A NASASpaceFlight preview listed a Kinetica-2 launch from Jiuquan on November 3, a Long March 12 (CZ-12) launch from Wenchang's commercial pad scheduled for November 5, and a Ceres-2 solid rocket from Galactic Energy on November 6. I could not confirm whether these launches took place or succeeded.
-Sources: [NASASpaceFlight](https://www.nasaspaceflight.com/2026/11/launch-preview-110226/)
+**10. Hong Kong national security case: MFA backs prosecution**
+At its November 5 briefing, the MFA said a defendant in a Hong Kong national security case pleaded guilty after facing overwhelming evidence. It said the central government firmly supports the HKSAR in punishing acts that endanger national security.
+Sources: [MFA](https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261105_12053977.html)
 
 ## Calendar ahead
 
-- **Nov 6-12**: Han Zheng travels to Türkiye for the Antalya leaders' summit at COP31 and visits Georgia.
-- **Nov 15**: Public comment period closes on China's draft export controls covering 40 technology systems, per a secondary report.
-- **Nov 16**: NBS releases October activity data on industrial output, retail sales and fixed-asset investment.
-- **Nov 18-19**: APEC summit in Shenzhen; a Trump-Xi meeting is expected but not confirmed.
-- **Year-end**: European Commission to present its proposed EU kill-switch import tool, per Šefčovič.
-- **Jan 10, 2027**: US-China trade truce and the suspension of BIS's 50 per cent affiliate rule expire.
+- **Nov 9**: Original end of the one-year Affiliates Rule suspension; BIS has extended it to January 10, 2027.
+- **Nov 10**: China's October trade data release (per Trading Economics calendar); CIIE in Shanghai closes.
+- **Mid-Nov**: Possible long-range PLA naval drill involving the carrier Shandong, per Taiwan analyst expectations.
+- **Nov 18-19**: APEC Economic Leaders' Meeting in Shenzhen; possible Xi-Trump meeting, with a Putin trilateral unconfirmed.
+- **Dec**: G20 summit in Miami, where Trump has said he expects to meet Xi.
+- **Jan 10, 2027**: Trade truce and Affiliates Rule suspension expire unless extended.
 
 _AI-generated and published without human review; verify critical items at the source._
