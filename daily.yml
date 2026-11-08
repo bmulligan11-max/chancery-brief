@@ -1,0 +1,37 @@
+name: Daily Chancery Brief
+
+on:
+  schedule:
+    - cron: '30 22 * * *'   # 22:30 UTC = 06:30 Beijing. Change to suit your readers.
+  workflow_dispatch:         # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency: daily-brief
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Build brief
+        run: python build.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'claude-haiku-5-5' }}
+          MAX_SEARCHES: ${{ vars.MAX_SEARCHES || '8' }}
+          TZ: Asia/Shanghai
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs data
+          git diff --staged --quiet || git commit -m "Brief $(TZ=Asia/Shanghai date +%F)"
+          git push
