@@ -50,7 +50,7 @@ other major policy documents published by the State Council Information Office o
 when one was published, its title and its main points); US-China trade, export controls and
 sanctions (BIS, USTR, Treasury, MOFCOM); technology and AI policy; Chinese commercial space; the
 economy; Taiwan and regional security; APEC and other diplomacy. Prefer official sources and wire
-services, and items from the last 72 hours; a white paper or policy document may be older, but
+services, and items from the last 4 days; a white paper or policy document may be older, but
 label it as background and give its publication date.
 PREVIOUS
 Do not write any commentary while you search. When you have finished searching, reply with ONLY a
