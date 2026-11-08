@@ -10,7 +10,7 @@ import re
 import requests
 
 ROOT = pathlib.Path(__file__).parent
-DEEPSEEK_BASE = "https://api.deepseek.com"
+DEEPSEEK_BASE = "https://api.openai.com"
 TAVILY_URL = "https://api.tavily.com/search"
 
 SOURCES = [
@@ -244,15 +244,15 @@ def search_tavily(query, days=3):
     return r.json().get("results", [])
 
 
-def write_deepseek(prompt):
-    key = os.environ.get("DEEPSEEK_API_KEY")
+def write_openai(prompt):
+    key = os.environ.get("OPENAI_API_KEY")
     if not key:
-        raise RuntimeError("DEEPSEEK_API_KEY not set")
+        raise RuntimeError("OPENAI_API_KEY not set")
     r = requests.post(
-        f"{DEEPSEEK_BASE}/chat/completions",
+        f"{OPENAI_BASE}/chat/completions",
         headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
         json={
-            "model": "deepseek-chat",
+            "model": "openai-chat",
             "messages": [
                 {"role": "system", "content": SYSTEM},
                 {"role": "user", "content": prompt},
@@ -305,7 +305,7 @@ def fetch():
     prompt = PROMPT.replace("TODAY", today)
     prompt += f"\n\nHere are the search results you must use. Only use facts from these:\n\n{context}"
 
-    raw = write_deepseek(prompt)
+    raw = write_openai(prompt)
     m = re.search(r"\{.*\}", raw, re.S)
     if not m:
         raise ValueError("No JSON in DeepSeek reply: " + raw[:300])
