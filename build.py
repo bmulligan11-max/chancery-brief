@@ -41,7 +41,7 @@ SYSTEM = (
 
 PROMPT = """Today is TODAY. Build the Beijing brief for today.
 
-Use at most MAXS web searches, chosen to cover: PRC leadership and MFA briefings; US-China trade,
+Use at most MAXS web searches, chosen to cover: PRC leadership and MFA briefings; US-China trade, EU-China trade,foreign policy decisions, domestic political decisions,
 export controls and sanctions (BIS, USTR, Treasury, MOFCOM); technology and AI policy; Chinese
 commercial space; the economy; Taiwan and regional security; APEC and other diplomacy. Prefer
 official sources and wire services, and items from the last 72 hours.
@@ -73,7 +73,19 @@ def previous_block():
 
 
 def norm(u):
-    return str(u).split("#")[0].rstrip("/").lower()
+    u = str(u).strip().split("#")[0]
+    u = re.sub(r"^https?://", "", u, flags=re.I)
+    u = re.sub(r"^www\.", "", u, flags=re.I)
+    u = re.sub(r"([?&])utm_[^&]*", "", u)
+    return u.rstrip("/?&").lower()
+
+
+def host(u):
+    return norm(u).split("/")[0]
+
+
+def words(u):
+    return set(re.findall(r"[a-z0-9]{4,}", u.lower()))
 
 
 def fetch():
@@ -98,8 +110,11 @@ def fetch():
         st = getattr(u, "server_tool_use", None)
         stats["searches"] += (getattr(st, "web_search_requests", 0) or 0) if st else 0
         for b in r.content:
-            if getattr(b, "type", "") == "web_search_tool_result" and isinstance(b.content, list):
-                urls.update(norm(x.url) for x in b.content if getattr(x, "url", None))
+            if getattr(b, "type", "") == "web_search_tool_result":
+                if isinstance(b.content, list):
+                    urls.update(norm(x.url) for x in b.content if getattr(x, "url", None))
+                else:
+                    print("SEARCH PROBLEM:", getattr(b.content, "error_code", b.content))
         return r
 
     r = call()
@@ -117,6 +132,8 @@ def fetch():
         r = call(False)
         data = parse("".join(b.text for b in r.content if b.type == "text"))
 
+    print(f"Retrieved {len(urls)} distinct pages; model proposed "
+          f"{len(data.get('flash', []))} dispatches.")
     data = sanitize(data, urls)
     data["date"] = datetime.date.today().isoformat()
     data["generated"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -149,11 +166,19 @@ def sanitize(data, urls):
     """Drop any link the model cites that it did not actually retrieve, and any item left unsourced."""
     removed = 0
 
-    def clean(srcs):
+    def clean(srcs, title=""):
         nonlocal removed
         out = []
         for s in srcs or []:
-            if norm(s.get("url", "")) in urls:
+            u = norm(s.get("url", ""))
+            if u in urls:
+                out.append(s)
+                continue
+            same = [x for x in urls if host(x) == host(u)]
+            if same:  # right site, wrong page: use the closest page actually retrieved
+                ref = words(u) | words(title)
+                best = max(same, key=lambda x: len(words(x) & ref))
+                s["url"] = "https://" + best
                 out.append(s)
             else:
                 removed += 1
@@ -162,12 +187,13 @@ def sanitize(data, urls):
     for sec in ("flash", "leadership"):
         kept = []
         for it in data.get(sec, []):
-            it["sources"] = clean(it.get("sources"))
+            it["sources"] = clean(it.get("sources"), it.get("title", ""))
             if it["sources"]:
                 kept.append(it)
         data[sec] = kept
     if len(data.get("flash", [])) < 3:
-        raise RuntimeError("Too few verified items; refusing to publish.")
+        raise RuntimeError(f"Too few verified items; refusing to publish. "
+                           f"({len(urls)} pages retrieved, {removed} links removed)")
     if removed:
         data["notes"] = (str(data.get("notes", "")) + f" {removed} cited link(s) were removed "
                          "because they did not match the pages retrieved today.").strip()
