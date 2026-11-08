@@ -15,8 +15,8 @@ import re
 import sys
 
 ROOT = pathlib.Path(__file__).parent
-MODEL = os.environ.get("CLAUDE_MODEL", "claude-haiku-5-5")
-MAX_SEARCHES = int(os.environ.get("MAX_SEARCHES", "8"))   # each search costs $0.01
+MODEL = (os.environ.get("CLAUDE_MODEL") or "claude-haiku-5-5")
+MAX_SEARCHES = int(os.environ.get("MAX_SEARCHES") or "8")   # each search costs $0.01
 MAX_OUTPUT_TOKENS = 4000
 
 # USD per million tokens (input, output). Haiku 5.5 rates apply to prompts up to 100K tokens;
@@ -250,7 +250,7 @@ def newsletter_md(data):
         lines += [f"**{i}. {it.get('title', '')}**", it.get("body", ""), f"Sources: {links}", ""]
     if data.get("watchlist"):
         lines += ["## Calendar ahead", ""] + [f"- **{w.get('date')}**: {w.get('event')}" for w in data["watchlist"]] + [""]
-    lines.append("_AI-assisted brief; verify critical items at the source._")
+    lines.append("_AI-generated and published without human review; verify critical items at the source._")
     return "\n".join(lines)
 
 
