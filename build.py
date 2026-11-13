@@ -16,8 +16,8 @@ import sys
 
 ROOT = pathlib.Path(__file__).parent
 MODEL = (os.environ.get("CLAUDE_MODEL") or "claude-haiku-5-5")
-MAX_SEARCHES = int(os.environ.get("MAX_SEARCHES") or "8")   # each search costs $0.01
-MAX_OUTPUT_TOKENS = 8000   # only what is used is billed; headroom stops the JSON being cut off
+MAX_SEARCHES = int(os.environ.get("MAX_SEARCHES") or "10")   # each search costs $0.01
+MAX_OUTPUT_TOKENS = 10000   # only what is used is billed; headroom stops the JSON being cut off
 
 # USD per million tokens (input, output). Haiku 5.5 rates apply to prompts up to 100K tokens;
 # above that the whole request is billed at 5x, so keep MAX_SEARCHES modest.
